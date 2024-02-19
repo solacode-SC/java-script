@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this part for the header of page */
+header
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header span 
+{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 4px;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+
+/* this part for the body of game */
+
+section
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.sectionHeader
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    border: 1px solid green;
+}
+.sectionHeader div
+{
+    border: 1px solid black;
+    padding: 8px;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: 500;
+
+}
+
+ /* the beginning of quiz section part  */
+.quizSection
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 10px;
+    width: 100%;
+}
+.qtsSide
+{
+    width: 28%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.qtsSide div
+{
+    border: 1px solid goldenrod;
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.taskSide
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 68%;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.taskSide div
+{
+    border: 1px solid goldenrod;
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    padding: 4px;
+}
+
+.qtsContent
+{
+    padding: 10px;
+    font-size: larger;
+}
+.answersCheck
+{
+    display: flex;
+    flex-direction: column;
+}
+.answersCheck span
+{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 8px;
+    text-align: left;
+    font-size: larger;
+}
+.btnNext
+{
+    display: flex;
+    justify-content: space-around;
+}
+.btnNext button
+{
+    width: 30%;
+    padding: 6px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* the end of quiz section part  */
+
+/* the beginning of start section part */
+
+.stratSection
+{
+
+}
+
+/* the end of start section part */
+
+
+/* the beginning of result section part */
+
+.resultSection
+{
+    
+}
+
+/* the end of result section part */
