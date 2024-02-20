@@ -130,6 +130,7 @@ section
     margin: 8px;
     text-align: left;
     font-size: larger;
+    text-align: center;
 }
 .btnNext
 {
@@ -154,7 +155,45 @@ section
 
 .stratSection
 {
-
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stratSection div
+{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    font-family: fantasy;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.stratSection span
+{
+    font-size: xx-large;
+}
+.startRules
+{
+    font-size: x-large;
+    display: flex;
+    text-align: left;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+.stratSection div button
+{
+    font-family: monospace;
+    font-size: xx-large;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
 }
 
 /* the end of start section part */
@@ -164,7 +203,47 @@ section
 
 .resultSection
 {
-    
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.resultDisplay
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.resultScore
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.resultBtn
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+}
+.resultBtn button
+{
+    font-family: monospace;
+    font-size: xx-large;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+}
 /* the end of result section part */

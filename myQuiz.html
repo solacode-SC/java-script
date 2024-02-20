@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    
     <link rel="stylesheet" href="style.css">
     <title>QuizGame</title>
 </head>
@@ -30,26 +30,26 @@
                 <div>Help ?</div>
             </div>
             <div class="taskSide">
-                <div class="qtsContent">Q1 : ________________________?</div>
+                <div class="qtsContent" id="qtsContent">Q1 : ________________________?</div>
                 <div class="answersCheck">
-                    <span>
-                        <input type="checkbox">______________.
+                    <span id="theAnsr1">
+                        ______________.
                     </span>
-                    <span>
-                        <input type="checkbox">______________.
+                    <span id="theAnsr2">
+                        ______________.
                     </span>
-                    <span>
-                        <input type="checkbox">______________.
+                    <span id="theAnsr3">
+                        ______________.
                     </span>
-                    <span>
-                        <input type="checkbox">______________.
+                    <span id="theAnsr4">
+                        ______________.
                     </span>
                 </div>
                 <div class="btnNext">
-                    <button>
+                    <button onclick="giveUp()">
                         Give Up
                     </button>
-                    <button>
+                    <button onclick="submitBtn()">
                         Submit
                     </button>
                 </div>
@@ -58,24 +58,39 @@
         <!-- the end of quiz section part -->
 
         <!-- the beginning of start section part -->
-        <div class="stratSection">
+        <section class="stratSection">
             <div>
-                Welcome to MyQuiz Game
+                <span>Welcome to MyQuiz Game</span>
+            </div>
+            <div class="startRules">
+                <span>Rules :</span>
+                <span>You have three qts for everey Task</span>
+                <span>You have four answers for each qts and one of them is correct</span>
+                <span>You can use Help for one time</span>
+                <span>If you give up you will be directly out of the game</span>
             </div>
             <div>
-                Rules
+                <button onclick="startGame()">Start</button>
             </div>
-            <div>
-                <button>Start</button>
-            </div>
-        </div>
+        </section>
         <!-- the end of start section part -->
 
         <!-- the beginning of result section part -->
         <div class="resultSection">
-
+            <div class="resultDisplay">
+                This your result
+            </div>
+            <div class="resultScore">
+                score
+            </div>
+            <div class="resultBtn">
+                <button onclick="replayBtn()">Replay</button>
+                <button onclick="quiteBtn()">Quite</button>
+            </div>
         </div>
         <!-- the end of result section part -->
     </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
